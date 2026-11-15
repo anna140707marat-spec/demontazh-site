@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071525">
+  <title>ДЕМОНТАЖ 24 — демонтаж и вывоз строительного мусора за 2 часа</title>
+  <meta name="description" content="Демонтаж и вывоз строительного мусора по фиксированной цене. Свой транспорт и грузчики, выезд за 2 часа, договор, лицензированные полигоны. Расчёт по фото в Telegram за 15 минут.">
+  <meta property="og:title" content="ДЕМОНТАЖ 24 — вывоз строительного мусора за 2 часа">
+  <meta property="og:description" content="Свой транспорт и грузчики. Цена по фото в Telegram и фиксация в договоре. Вывоз на лицензированные полигоны, акт утилизации.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/hero-1600.jpg">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/hero-1600.jpg" imagesrcset="assets/img/hero-900.jpg 900w, assets/img/hero-1600.jpg 1600w" imagesizes="100vw">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>
+    document.documentElement.classList.add('js');
+    window.setTimeout(function () {
+      if (!document.documentElement.hasAttribute('data-js-ready')) {
+        document.documentElement.classList.remove('js');
+      }
+    }, 3000);
+  </script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Иконки -->
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-truck" viewBox="0 0 24 24">
+      <path d="M3 6.5h11v10H3zM14 10h4.2l3.3 3.4v3.1H14z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+      <circle cx="7" cy="18" r="1.8" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <circle cx="17.5" cy="18" r="1.8" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path d="M8.8 6.5v10M3 11.5h11" fill="none" stroke="currentColor" stroke-width="1.7" opacity=".45"/>
+    </symbol>
+    <symbol id="i-helmet" viewBox="0 0 24 24">
+      <path d="M4 15a8 8 0 0 1 16 0M9.5 15V7.5a2.5 2.5 0 0 1 5 0V15M3 15h18M6 15v3h12v-3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24">
+      <path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9zM14 3v6h6M9 15l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-recycle" viewBox="0 0 24 24">
+      <path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24">
+      <path d="M12 3 2.7 20h18.6L12 3Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+      <path d="M12 9v5M12 17.3v.2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-weight" viewBox="0 0 24 24">
+      <path d="M6 9h12l2 11H4L6 9Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+      <path d="M9 9V7a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+      <path d="M12 13v4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path d="M12 7v5.3l3.4 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24">
+      <path d="M4 8h3l2-3h6l2 3h3v11H4V8Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+      <circle cx="12" cy="13" r="3.4" fill="none" stroke="currentColor" stroke-width="1.7"/>
+    </symbol>
+    <symbol id="i-car" viewBox="0 0 24 24">
+      <path d="M4 15h16M5 15l1.2-5.2L8.5 7h7l2.3 2.8L19 15M5 15v4M19 15v4M8 19h8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="8" cy="17.2" r="1.4" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <circle cx="16" cy="17.2" r="1.4" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    </symbol>
+    <symbol id="i-brick" viewBox="0 0 24 24">
+      <path d="M3 7h18v11H3zM3 12.5h18M9 7v5.5M15 7v5.5M6 12.5V18M12 12.5V18M18 12.5V18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-sofa" viewBox="0 0 24 24">
+      <path d="M5 12V8a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4M3 13a2 2 0 0 1 4 0v3h10v-3a2 2 0 0 1 4 0v4H3v-4ZM6 20v1M18 20v1" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-tools" viewBox="0 0 24 24">
+      <path d="m14.2 4.4 5.4 5.4-2.4 2.4-1.4-1.4-8.1 8.1a2.1 2.1 0 0 1-3-3l8.1-8.1-1.4-1.4 2.8-2Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="m5 4 15 15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" opacity=".35"/>
+    </symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24">
+      <path d="M12 21V11M12 13C8 13 5 10 5 6c4 0 7 3 7 7ZM12 9c0-4 3-7 7-7 0 4-3 7-7 7Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-factory" viewBox="0 0 24 24">
+      <path d="M3 21V9l6 4V9l6 4V6h6v15H3Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+      <path d="M7 21v-4h3v4M14 21v-4h3v4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24">
+      <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path d="m3.5 7 8.5 6 8.5-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24">
+      <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+      <circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="1.7"/>
+    </symbol>
+    <symbol id="i-telegram" viewBox="0 0 24 24">
+      <path d="M21.9 4.3 18.6 20c-.2 1-.9 1.3-1.8.8l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.3-8.4c.4-.4-.1-.6-.6-.2L6.1 13.1 1 11.5c-1.1-.3-1.1-1.1.2-1.6l19.2-7.4c.9-.3 1.7.2 1.5 1.8Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24">
+      <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24">
+      <path d="m5 13 4 4L19 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24">
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+      <path d="m9 12 2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-user" viewBox="0 0 24 24">
+      <circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path d="M4 21c0-4 3.6-6 8-6s8 2 8 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24">
+      <path d="m13 2-9 12h7l-1 8 9-12h-7l1-8Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-users" viewBox="0 0 24 24">
+      <circle cx="9" cy="7" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.1a4 4 0 0 1 0 7.8M22 21v-2a4 4 0 0 0-3-3.9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24">
+      <path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-close" viewBox="0 0 24 24">
+      <path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path d="M8 3v4M16 3v4M3 10h18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    </symbol>
+  </svg>
+<header class="site-header" id="site-header">
+    <div class="container site-header__inner">
+      <a class="logo" href="#top">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 44 44" focusable="false">
+            <defs>
+              <linearGradient id="logo-grad-head" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#5AD2FF"/>
+                <stop offset="0.55" stop-color="#1E8BFF"/>
+                <stop offset="1" stop-color="#0A5FD8"/>
+              </linearGradient>
+            </defs>
+            <rect width="44" height="44" rx="12" fill="url(#logo-grad-head)"/>
+            <path d="M9 14h16v11H9z" fill="#061423"/>
+            <path d="M25 18h5l4 5v2h-9z" fill="#061423"/>
+            <circle cx="14" cy="28.5" r="2.6" fill="#061423"/>
+            <circle cx="28" cy="28.5" r="2.6" fill="#061423"/>
+            <path d="M12.5 17v5M17.5 17v5M22.5 17v5" stroke="#5AD2FF" stroke-width="1.5"/>
+          </svg>
+        </span>
+        <span class="logo__text">
+          <strong>ДЕМОНТАЖ <span>24</span></strong>
+          <small>демонтаж и вывоз мусора</small>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a href="#process">Как работаем</a>
+        <a href="#waste">Что вывозим</a>
+        <a href="#included">Расчёт стоимости</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="site-header__actions">
+        <a class="header-phone" href="tel:+74951204567" aria-label="Позвонить: +7 495 120-45-67">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span>+7 (495) 120-45-67</span>
+        </a>
+        <a class="btn btn--primary btn--sm header-cta" href="#hero-form" data-open-lead>Заказать звонок</a>
+        <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+          <svg class="icon nav-toggle__open" aria-hidden="true"><use href="#i-menu"/></svg>
+          <svg class="icon nav-toggle__close" aria-hidden="true"><use href="#i-close"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu__inner">
+      <p class="mobile-menu__label">Навигация</p>
+      <nav class="mobile-menu__nav" aria-label="Мобильная навигация">
+        <a href="#process">Как работаем</a>
+        <a href="#waste">Что вывозим</a>
+        <a href="#included">Расчёт стоимости</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="mobile-menu__contacts">
+        <a class="mobile-menu__phone" href="tel:+74951204567">+7 (495) 120-45-67</a>
+        <p>Ежедневно с 8:00 до 22:00</p>
+      </div>
+      <a class="btn btn--primary btn--block" href="#hero-form" data-menu-link data-open-lead>Оставить заявку</a>
+      <a class="mobile-menu__tg" href="https://t.me/demontazh24" target="_blank" rel="noopener">
+        <svg class="icon" aria-hidden="true"><use href="#i-telegram"/></svg>
+        Написать в Telegram
+      </a>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- ============ 1. ПЕРВЫЙ ЭКРАН ============ -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="assets/img/hero-1600.jpg" srcset="assets/img/hero-900.jpg 900w, assets/img/hero-1600.jpg 1600w" sizes="100vw" alt="" width="1600" height="1067" fetchpriority="high">
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow"><span class="status-dot" aria-hidden="true"></span> Работаем 7 дней в неделю · 8:00–22:00</p>
+
+          <h1 id="hero-title">Вывезем строительный мусор <span class="accent">за 2 часа</span> после звонка по фиксированной цене</h1>
+
+          <p class="hero__lead">Приедем со своим транспортом и грузчиками. Цену назовём по фото в Telegram и не изменим её на месте — зафиксируем в договоре.</p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="#hero-form" data-open-lead>
+              Закрепить бригаду на сегодня
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+            <a class="hero__call" href="tel:+74951204567">
+              <span>Или позвоните</span>
+              <strong>+7 (495) 120-45-67</strong>
+              <small>ответим за 3 минуты</small>
+            </a>
+          </div>
+
+          <p class="hero__note"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg> Перезвоним в течение 3 минут. Без спама и навязчивых звонков.</p>
+
+          <ul class="hero__points" aria-label="Ключевые условия">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Цена в договоре</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Свои грузчики</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Оплата после приёмки</li>
+          </ul>
+        </div>
+
+        <div class="hero__form" id="hero-form">
+          <div class="lead-card" data-lead-card data-lead-source="hero">
+            <div class="lead-card__top">
+              <span class="lead-card__badge"><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg> Расчёт за 15 минут</span>
+              <span class="lead-card__free">Бесплатно</span>
+            </div>
+
+            <h2 class="lead-card__title">Узнать точную цену</h2>
+            <p class="lead-card__sub">Пришлите фото мусора — назовём стоимость и зафиксируем её в договоре.</p>
+
+            <form class="lead-form" data-lead-form novalidate>
+              <div class="field">
+                <label for="hero-name">Ваше имя</label>
+                <div class="field__control">
+                  <svg class="icon" aria-hidden="true"><use href="#i-user"/></svg>
+                  <input class="input" id="hero-name" name="name" type="text" placeholder="Как к вам обращаться" autocomplete="name" required>
+                </div>
+                <span class="field__error">Пожалуйста, укажите имя</span>
+              </div>
+
+              <div class="field">
+                <label for="hero-phone">Телефон</label>
+                <div class="field__control">
+                  <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+                  <input class="input" id="hero-phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" autocomplete="tel" inputmode="tel" required data-phone>
+                </div>
+                <span class="field__error">Введите номер телефона полностью</span>
+              </div>
+
+              <div class="field field--file">
+                <label class="file" data-file>
+                  <input type="file" id="hero-photo" name="photo" accept="image/*" data-file-input>
+                  <span class="file__icon" aria-hidden="true"><svg class="icon"><use href="#i-camera"/></svg></span>
+                  <span class="file__body">
+                    <strong>Прикрепить фото мусора</strong>
+                    <small class="file__hint">Необязательно · JPG, PNG до 10 МБ</small>
+                    <small class="file__name" data-file-name>Файл не выбран</small>
+                  </span>
+                  <span class="file__check" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span>
+                </label>
+              </div>
+
+              <label class="consent">
+                <input type="checkbox" id="hero-consent" name="consent" required data-consent>
+                <span>Согласен с <a href="privacy.html" target="_blank" rel="noopener">политикой конфиденциальности</a> и обработкой персональных данных</span>
+              </label>
+              <span class="consent-error">Для отправки нужно согласие на обработку данных</span>
+
+              <button class="btn btn--primary btn--block lead-form__submit" type="submit">
+                Закрепить бригаду на сегодня
+                <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </button>
+
+              <p class="form-note"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg> Перезвоним в течение 3 минут. Без спама и навязчивых звонков.</p>
+            </form>
+
+            <div class="form-success" role="status" aria-live="polite">
+              <span class="form-success__icon" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span>
+              <h3>Заявка принята</h3>
+              <p>Перезвоним в течение 3 минут, уточним детали и закрепим за вами бригаду.</p>
+              <button class="form-success__reset" type="button" data-form-reset>Отправить ещё одну заявку</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Мини-блок доверия -->
+    <section class="trust" aria-label="Почему нам можно доверять">
+      <div class="container">
+        <ul class="trust__grid">
+          <li class="trust__item">
+            <span class="trust__icon" aria-hidden="true"><svg class="icon"><use href="#i-truck"/></svg></span>
+            <div><strong>Свой автопарк</strong><p>Газели, КАМАЗы, контейнеры 8–27 м³</p></div>
+          </li>
+          <li class="trust__item">
+            <span class="trust__icon" aria-hidden="true"><svg class="icon"><use href="#i-helmet"/></svg></span>
+            <div><strong>Штатные грузчики</strong><p>Не привлекаем случайных людей с Авито</p></div>
+          </li>
+          <li class="trust__item">
+            <span class="trust__icon" aria-hidden="true"><svg class="icon"><use href="#i-doc"/></svg></span>
+            <div><strong>Работаем по договору</strong><p>С частными лицами и юрлицами</p></div>
+          </li>
+          <li class="trust__item">
+            <span class="trust__icon" aria-hidden="true"><svg class="icon"><use href="#i-recycle"/></svg></span>
+            <div><strong>Вывозим на лицензированные полигоны</strong><p>Даём акт утилизации</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 2. БОЛИ ============ -->
+    <section class="section pains" id="pains" aria-labelledby="pains-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Проблемы</span>
+          <h2 class="section-title" id="pains-title">Знакомо хотя бы одно?</h2>
+          <p class="section-sub">Три сценария, после которых обычно остаются нервы, синяки и счета «сверх договорённости».</p>
+        </div>
+
+        <div class="pains__grid">
+          <article class="pain">
+            <span class="pain__num" aria-hidden="true">01</span>
+            <span class="pain__icon" aria-hidden="true"><svg class="icon"><use href="#i-alert"/></svg></span>
+            <span class="pain__label">Боль 1</span>
+            <h3>Обман с ценой</h3>
+            <blockquote>Позвонили — назвали 15 000 ₽. Приехали грузчики — сказали: «тут сложнее, будет 30 000 ₽». Вы в шоке, спорите, теряете полдня и нервы.</blockquote>
+          </article>
+
+          <article class="pain">
+            <span class="pain__num" aria-hidden="true">02</span>
+            <span class="pain__icon" aria-hidden="true"><svg class="icon"><use href="#i-weight"/></svg></span>
+            <span class="pain__label">Боль 2</span>
+            <h3>Физическая работа и грязь</h3>
+            <blockquote>Сам таскаешь мешки с бетоном по 40 кг, ломаешь спину, дышишь пылью. Через неделю болит поясница, а подъезд весь в разводах — соседи жалуются, управляющая компания выписывает штраф.</blockquote>
+          </article>
+
+          <article class="pain">
+            <span class="pain__num" aria-hidden="true">03</span>
+            <span class="pain__icon" aria-hidden="true"><svg class="icon"><use href="#i-clock"/></svg></span>
+            <span class="pain__label">Боль 3</span>
+            <h3>Срыв сроков</h3>
+            <blockquote>Ремонт горит, съезжать через 2 дня, а мусор ещё не вывезен. Сдвигаете сроки, платите бригаде за простой, получаете штраф от заказчика.</blockquote>
+          </article>
+        </div>
+
+        <div class="pains__bridge">
+          <p>Мы построили работу так, чтобы этих ситуаций просто не было.</p>
+          <a href="#solutions">Посмотреть решения <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. РЕШЕНИЯ ============ -->
+    <section class="section solutions" id="solutions" aria-labelledby="solutions-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Наш подход</span>
+          <h2 class="section-title" id="solutions-title">Как мы закрываем эти проблемы</h2>
+          <p class="section-sub">Без «сюрпризов» на объекте: условия понятны до выезда, ответственность — на нас.</p>
+        </div>
+
+        <div class="solutions__grid">
+          <div class="solutions__list">
+            <article class="solution">
+              <span class="solution__num" aria-hidden="true">01</span>
+              <div class="solution__body">
+                <h3>Фиксированная цена — в договоре</h3>
+                <p>Мы называем цену по фото в Telegram и фиксируем её в договоре — вы платите ровно столько, сколько сказали по телефону. Ни рубля сверху за «сложность», «этаж» или «лифт».</p>
+              </div>
+            </article>
+
+            <article class="solution">
+              <span class="solution__num" aria-hidden="true">02</span>
+              <div class="solution__body">
+                <h3>Работа под ключ — без вашего участия</h3>
+                <p>Мы сами демонтируем, грузим, вывозим и подметаем пол веником — вы не таскаете тяжести и не моете подъезд. Ваша задача — показать, что выносить, и принять чистое помещение.</p>
+              </div>
+            </article>
+
+            <article class="solution">
+              <span class="solution__num" aria-hidden="true">03</span>
+              <div class="solution__body">
+                <h3>Выезд за 2 часа — без срыва сроков</h3>
+                <p>Мы выезжаем в течение 2 часов после звонка — вы не срываете сроки ремонта и не платите за простой бригады. Работаем 7 дней в неделю с 8:00 до 22:00.</p>
+              </div>
+            </article>
+
+            <a class="solutions__cta" href="#lead">Обсудить мой объект <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+
+          <div class="solution-media">
+            <img src="assets/img/worker-800.jpg" alt="Сотрудник бригады демонтажа убирает строительный мусор на объекте" width="800" height="1066" loading="lazy">
+            <span class="solution-media__tag"><span class="status-dot" aria-hidden="true"></span> Бригада на объекте</span>
+            <div class="solution-media__stats">
+              <div>
+                <strong>2 ч</strong>
+                <span>на выезд после звонка</span>
+              </div>
+              <div>
+                <strong>0 ₽</strong>
+                <span>доплат на месте</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. КАК МЫ РАБОТАЕМ ============ -->
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Порядок работы</span>
+          <h2 class="section-title" id="process-title">4 шага от звонка до чистого помещения</h2>
+          <p class="section-sub">Чем меньше вам нужно делать — тем лучше. Всю тяжёлую работу берём на себя.</p>
+        </div>
+
+        <div class="steps">
+          <article class="step">
+            <div class="step__head">
+              <span class="step__num" aria-hidden="true">01</span>
+            </div>
+            <div class="step__card">
+              <span class="step__icon" aria-hidden="true"><svg class="icon"><use href="#i-phone"/></svg></span>
+              <span class="step__label">Шаг 1</span>
+              <h3>Заявка</h3>
+              <p>Вы оставляете номер или присылаете фото мусора в Telegram. Перезваниваем в течение 3 минут.</p>
+            </div>
+          </article>
+
+          <article class="step">
+            <div class="step__head">
+              <span class="step__num" aria-hidden="true">02</span>
+            </div>
+            <div class="step__card">
+              <span class="step__icon" aria-hidden="true"><svg class="icon"><use href="#i-doc"/></svg></span>
+              <span class="step__label">Шаг 2</span>
+              <h3>Расчёт</h3>
+              <p>Называем точную цену по фото. Если объём большой — выезжает замерщик в день обращения, бесплатно.</p>
+            </div>
+          </article>
+
+          <article class="step">
+            <div class="step__head">
+              <span class="step__num" aria-hidden="true">03</span>
+            </div>
+            <div class="step__card">
+              <span class="step__icon" aria-hidden="true"><svg class="icon"><use href="#i-truck"/></svg></span>
+              <span class="step__label">Шаг 3</span>
+              <h3>Работа</h3>
+              <p>Приезжает бригада с транспортом за 2 часа. Демонтируем, грузим, вывозим, подметаем. Всё за 1 день.</p>
+            </div>
+          </article>
+
+          <article class="step">
+            <div class="step__head">
+              <span class="step__num" aria-hidden="true">04</span>
+            </div>
+            <div class="step__card">
+              <span class="step__icon" aria-hidden="true"><svg class="icon"><use href="#i-shield"/></svg></span>
+              <span class="step__label">Шаг 4</span>
+              <h3>Приёмка</h3>
+              <p>Вы принимаете чистое помещение. Подписываем акт. Оплата — после выполнения работ.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="process__cta">
+          <p><strong>Средний срок работы — 1 день.</strong> Начнём сегодня, если свободна бригада.</p>
+          <a class="btn btn--dark" href="#lead">Оставить заявку <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. ЧТО ВХОДИТ В УСЛУГУ ============ -->
+    <section class="section included" id="included" aria-labelledby="included-title">
+      <div class="container">
+        <div class="included__grid">
+          <div class="included__content">
+            <div class="section-head">
+              <span class="eyebrow">Бесплатный расчёт</span>
+              <h2 class="section-title" id="included-title">Бесплатный расчёт стоимости: по фото за 15 минут или с выездом замерщика в день обращения</h2>
+            </div>
+
+            <div class="include-list">
+              <article class="include">
+                <span class="include__icon" aria-hidden="true"><svg class="icon"><use href="#i-camera"/></svg></span>
+                <div>
+                  <h3>Фото мусора в Telegram</h3>
+                  <p>Называем точную цену без доплат в течение 15 минут</p>
+                </div>
+              </article>
+
+              <article class="include">
+                <span class="include__icon" aria-hidden="true"><svg class="icon"><use href="#i-car"/></svg></span>
+                <div>
+                  <h3>Выезд замерщика бесплатно</h3>
+                  <p>В день обращения, в удобное для вас время</p>
+                </div>
+              </article>
+
+              <article class="include">
+                <span class="include__icon" aria-hidden="true"><svg class="icon"><use href="#i-doc"/></svg></span>
+                <div>
+                  <h3>Смета в договоре</h3>
+                  <p>Цена не изменится после приезда бригады, даже если мусора окажется больше</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="included__actions">
+              <a class="btn btn--primary" href="https://t.me/demontazh24" target="_blank" rel="noopener">
+                <svg class="icon" aria-hidden="true"><use href="#i-telegram"/></svg>
+                Отправить фото в Telegram
+              </a>
+              <a class="included__phone" href="tel:+74951204567">+7 (495) 120-45-67</a>
+            </div>
+          </div>
+
+          <div class="included__visual">
+            <div class="phone" aria-hidden="true">
+              <div class="phone__notch"></div>
+              <div class="phone__screen">
+                <div class="phone__top">
+                  <span class="phone__avatar">24</span>
+                  <span class="phone__contact"><strong>ДЕМОНТАЖ 24</strong><small>онлайн · отвечаем быстро</small></span>
+                  <svg class="icon phone__tg"><use href="#i-telegram"/></svg>
+                </div>
+                <div class="phone__chat">
+                  <div class="bubble bubble--in">
+                    Здравствуйте! Нужно вывезти мусор после ремонта, две комнаты. Вот фото:
+                    <img src="assets/img/waste-construction.jpg" alt="" width="640" height="427" loading="lazy">
+                    <time>14:28</time>
+                  </div>
+                  <div class="bubble bubble--in">Сколько будет стоить? <time>14:29</time></div>
+                  <div class="bubble bubble--out">12 500 ₽. Цена фиксированная — без доплат на месте. Бригада приедет сегодня к 16:00. <time>14:32</time></div>
+                  <div class="bubble bubble--in">Отлично, оформляем! <time>14:33</time></div>
+                </div>
+                <div class="phone__input"><span>Сообщение</span><span class="phone__send"><svg class="icon"><use href="#i-arrow"/></svg></span></div>
+              </div>
+            </div>
+
+            <div class="float-card float-card--doc">
+              <span class="float-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-doc"/></svg></span>
+              <div><strong>Смета в договоре</strong><span>Цена не изменится</span></div>
+            </div>
+            <div class="float-card float-card--time">
+              <strong>15</strong>
+              <span>минут<br>на расчёт</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. ЧТО МЫ ВЫВОЗИМ ============ -->
+    <section class="section waste" id="waste" aria-labelledby="waste-title">
+      <div class="container">
+        <div class="waste__head">
+          <div class="section-head">
+            <span class="eyebrow">Типы отходов</span>
+            <h2 class="section-title" id="waste-title">Работаем с любым типом мусора</h2>
+            <p class="section-sub">От нескольких мешков после косметического ремонта до демонтажа перегородок и вывоза промышленных отходов.</p>
+          </div>
+          <div class="waste__badge">
+            <svg class="icon" aria-hidden="true"><use href="#i-truck"/></svg>
+            <div><strong>8–27 м³</strong><span>объём контейнеров</span></div>
+          </div>
+        </div>
+
+        <div class="waste__grid">
+          <article class="waste-card">
+            <div class="waste-card__media">
+              <img src="assets/img/waste-construction.jpg" alt="Обломки бетона, кирпича и строительный мусор крупным планом" width="640" height="427" loading="lazy">
+            </div>
+            <div class="waste-card__body">
+              <span class="waste-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-brick"/></svg></span>
+              <h3>Строительный</h3>
+              <p>бетон, кирпич, штукатурка, стяжка, арматура</p>
+            </div>
+          </article>
+
+          <article class="waste-card">
+            <div class="waste-card__media">
+              <img src="assets/img/waste-bulky.jpg" alt="Старая мебель и крупногабаритный хлам в помещении" width="640" height="960" loading="lazy">
+            </div>
+            <div class="waste-card__body">
+              <span class="waste-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-sofa"/></svg></span>
+              <h3>Крупногабаритный</h3>
+              <p>старая мебель, сантехника, бытовая техника</p>
+            </div>
+          </article>
+
+          <article class="waste-card">
+            <div class="waste-card__media">
+              <img src="assets/img/waste-demolition.jpg" alt="Щебень и обломки после демонтажа здания" width="640" height="427" loading="lazy">
+            </div>
+            <div class="waste-card__body">
+              <span class="waste-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-tools"/></svg></span>
+              <h3>Демонтажные</h3>
+              <p>перегородки, полы, окна, двери, инженерные конструкции</p>
+            </div>
+          </article>
+
+          <article class="waste-card waste-card--wide">
+            <div class="waste-card__media">
+              <img src="assets/img/waste-household.jpg" alt="Мешки с бытовым и садовым мусором на улице" width="640" height="876" loading="lazy">
+            </div>
+            <div class="waste-card__body">
+              <span class="waste-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-leaf"/></svg></span>
+              <h3>Садовый и бытовой</h3>
+              <p>ветки, грунт, хлам с дачи и гаража</p>
+            </div>
+          </article>
+
+          <article class="waste-card waste-card--wide">
+            <div class="waste-card__media">
+              <img src="assets/img/waste-industrial.jpg" alt="Промышленный контейнер с отходами производства" width="640" height="960" loading="lazy">
+            </div>
+            <div class="waste-card__body">
+              <span class="waste-card__icon" aria-hidden="true"><svg class="icon"><use href="#i-factory"/></svg></span>
+              <h3>Промышленный</h3>
+              <p>отходы производства, нежилые помещения, склады</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="waste__note">
+          <p><strong>Не нашли свой тип мусора?</strong> Пришлите фото в Telegram — скажем, вывезем ли, и назовём цену.</p>
+          <a href="https://t.me/demontazh24" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-telegram"/></svg>
+            Написать в Telegram
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. ФИНАЛЬНЫЙ CTA ============ -->
+    <section class="section cta" id="lead" aria-labelledby="cta-title">
+      <div class="cta__bg" aria-hidden="true">
+        <img src="assets/img/hero-1600.jpg" alt="" width="1600" height="1067" loading="lazy">
+      </div>
+      <div class="container">
+        <div class="cta-card">
+          <div class="cta-card__content">
+            <span class="eyebrow eyebrow--dark">Свободные бригады</span>
+            <h2 class="section-title" id="cta-title">Оставляйте заявку — закрепим за вами бригаду и цену</h2>
+
+            <div class="urgency">
+              <div class="urgency__top"><span class="status-dot" aria-hidden="true"></span> Свободные слоты на сегодня</div>
+              <p>Сегодня на линии свободно <strong>3 бригады</strong>. Завтра — только <strong>2</strong>. Оставили заявку сейчас — закрепили за собой слот и цену.</p>
+            </div>
+
+            <div class="guarantee">
+              <span class="guarantee__icon" aria-hidden="true"><svg class="icon"><use href="#i-shield"/></svg></span>
+              <p><strong>Гарантия пунктуальности:</strong> если бригада опоздает больше чем на 30 минут — даём скидку 10% на все работы. Оплата — только после того, как вы примете работу и помещение будет чистым.</p>
+            </div>
+
+            <div class="cta-card__phone">
+              <span>Хотите обсудить по телефону?</span>
+              <a href="tel:+74951204567">+7 (495) 120-45-67</a>
+            </div>
+          </div>
+
+          <div class="cta-card__form" id="cta-form">
+            <div class="lead-card lead-card--cta" data-lead-card data-lead-source="cta">
+              <div class="lead-card__top">
+                <span class="lead-card__badge"><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg> Ответим за 3 минуты</span>
+                <span class="lead-card__free">Бесплатно</span>
+              </div>
+
+              <h3 class="lead-card__title">Получить точную цену</h3>
+              <p class="lead-card__sub">Оставьте имя и телефон — перезвоним и рассчитаем стоимость.</p>
+
+              <form class="lead-form" data-lead-form novalidate>
+                <div class="field">
+                  <label for="cta-name">Ваше имя</label>
+                  <div class="field__control">
+                    <svg class="icon" aria-hidden="true"><use href="#i-user"/></svg>
+                    <input class="input" id="cta-name" name="name" type="text" placeholder="Как к вам обращаться" autocomplete="name" required>
+                  </div>
+                  <span class="field__error">Пожалуйста, укажите имя</span>
+                </div>
+
+                <div class="field">
+                  <label for="cta-phone">Телефон</label>
+                  <div class="field__control">
+                    <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+                    <input class="input" id="cta-phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" autocomplete="tel" inputmode="tel" required data-phone>
+                  </div>
+                  <span class="field__error">Введите номер телефона полностью</span>
+                </div>
+
+                <div class="field field--file">
+                  <label class="file" data-file>
+                    <input type="file" id="cta-photo" name="photo" accept="image/*" data-file-input>
+                    <span class="file__icon" aria-hidden="true"><svg class="icon"><use href="#i-camera"/></svg></span>
+                    <span class="file__body">
+                      <strong>Прикрепить фото мусора</strong>
+                      <small class="file__hint">Необязательно · JPG, PNG до 10 МБ</small>
+                      <small class="file__name" data-file-name>Файл не выбран</small>
+                    </span>
+                    <span class="file__check" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span>
+                  </label>
+                </div>
+
+                <label class="consent">
+                  <input type="checkbox" id="cta-consent" name="consent" required data-consent>
+                  <span>Согласен с <a href="privacy.html" target="_blank" rel="noopener">политикой конфиденциальности</a> и обработкой персональных данных</span>
+                </label>
+                <span class="consent-error">Для отправки нужно согласие на обработку данных</span>
+
+                <button class="btn btn--primary btn--block lead-form__submit" type="submit">
+                  Получить точную цену за 15 минут
+                  <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+                </button>
+
+                <p class="form-note"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg> Перезвоним в течение 3 минут. Без спама и навязчивых звонков.</p>
+              </form>
+
+              <div class="form-success" role="status" aria-live="polite">
+                <span class="form-success__icon" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span>
+                <h3>Заявка принята</h3>
+                <p>Перезвоним в течение 3 минут, закрепим слот и назовём точную цену.</p>
+                <button class="form-success__reset" type="button" data-form-reset>Отправить ещё одну заявку</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 8. ФУТЕР ============ -->
+  <footer class="site-footer" id="contacts">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="logo logo--footer" href="#top">
+            <span class="logo__mark" aria-hidden="true">
+              <svg viewBox="0 0 44 44" focusable="false">
+                <defs>
+                  <linearGradient id="logo-grad-foot" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#5AD2FF"/>
+                    <stop offset="0.55" stop-color="#1E8BFF"/>
+                    <stop offset="1" stop-color="#0A5FD8"/>
+                  </linearGradient>
+                </defs>
+                <rect width="44" height="44" rx="12" fill="url(#logo-grad-foot)"/>
+                <path d="M9 14h16v11H9z" fill="#061423"/>
+                <path d="M25 18h5l4 5v2h-9z" fill="#061423"/>
+                <circle cx="14" cy="28.5" r="2.6" fill="#061423"/>
+                <circle cx="28" cy="28.5" r="2.6" fill="#061423"/>
+                <path d="M12.5 17v5M17.5 17v5M22.5 17v5" stroke="#5AD2FF" stroke-width="1.5"/>
+              </svg>
+            </span>
+            <span class="logo__text">
+              <strong>ДЕМОНТАЖ <span>24</span></strong>
+              <small>демонтаж и вывоз мусора</small>
+            </span>
+          </a>
+          <p class="footer__desc">Демонтируем, грузим и вывозим строительный мусор на лицензированные полигоны. Работаем по договору, с фиксированной ценой и своими грузчиками.</p>
+          <a class="footer__tg" href="https://t.me/demontazh24" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-telegram"/></svg>
+            Написать в Telegram
+          </a>
+        </div>
+
+        <div class="footer__col">
+          <h3>Контакты</h3>
+          <ul class="footer__list footer__list--contacts">
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+              <a href="tel:+74951204567">+7 (495) 120-45-67</a>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+              <a href="mailto:info@site.ru">info@site.ru</a>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+              <span>г. Москва, ул. Строителей, 12</span>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>
+              <span>Работаем ежедневно с 8:00 до 22:00</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h3>Документы</h3>
+          <ul class="footer__list">
+            <li><a href="privacy.html">Политика конфиденциальности</a></li>
+            <li><a href="offer.html">Договор-оферта</a></li>
+            <li><a href="#lead">Оставить заявку</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h3>Реквизиты</h3>
+          <ul class="footer__list footer__list--legal">
+            <li>ИП Смирнов Андрей Викторович</li>
+            <li>ИНН 771234567890</li>
+            <li>ОГРНИП 321774600123456</li>
+            <li>Лицензия на утилизацию отходов № 077-2024-Т</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© <span data-year>2026</span> «ДЕМОНТАЖ 24». Все права защищены.</p>
+        <p>Информация на сайте не является публичной офертой.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Форма заявки в модальном окне -->
+  <dialog class="lead-modal" id="lead-modal" aria-labelledby="modal-title">
+    <button class="lead-modal__close" type="button" data-close-lead aria-label="Закрыть форму">
+      <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+    </button>
+
+    <div class="lead-card lead-card--modal" data-lead-card data-lead-source="modal">
+      <div class="lead-card__top">
+        <span class="lead-card__badge"><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg> Расчёт за 15 минут</span>
+        <span class="lead-card__free">Бесплатно</span>
+      </div>
+
+      <h2 class="lead-card__title" id="modal-title">Закрепить бригаду на сегодня</h2>
+      <p class="lead-card__sub">Оставьте имя и телефон, прикрепите фото мусора — перезвоним за 3 минуты и назовём точную цену.</p>
+
+      <form class="lead-form" data-lead-form novalidate>
+        <div class="field">
+          <label for="modal-name">Ваше имя</label>
+          <div class="field__control">
+            <svg class="icon" aria-hidden="true"><use href="#i-user"/></svg>
+            <input class="input" id="modal-name" name="name" type="text" placeholder="Как к вам обращаться" autocomplete="name" required>
+          </div>
+          <span class="field__error">Пожалуйста, укажите имя</span>
+        </div>
+
+        <div class="field">
+          <label for="modal-phone">Телефон</label>
+          <div class="field__control">
+            <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+            <input class="input" id="modal-phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" autocomplete="tel" inputmode="tel" required data-phone>
+          </div>
+          <span class="field__error">Введите номер телефона полностью</span>
+        </div>
+
+        <div class="field field--file">
+          <label class="file" data-file>
+            <input type="file" id="modal-photo" name="photo" accept="image/*" data-file-input>
+            <span class="file__icon" aria-hidden="true"><svg class="icon"><use href="#i-camera"/></svg></span>
+            <span class="file__body">
+              <strong>Прикрепить фото мусора</strong>
+              <small class="file__hint">Необязательно · JPG, PNG до 10 МБ</small>
+              <small class="file__name" data-file-name>Файл не выбран</small>
+            </span>
+            <span class="file__check" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span>
+          </label>
+        </div>
+
+        <label class="consent">
+          <input type="checkbox" id="modal-consent" name="consent" required data-consent>
+          <span>Согласен с <a href="privacy.html" target="_blank" rel="noopener">политикой конфиденциальности</a> и обработкой персональных данных</span>
+        </label>
+        <span class="consent-error">Для отправки нужно согласие на обработку данных</span>
+
+        <button class="btn btn--primary btn--block lead-form__submit" type="submit">
+          Закрепить бригаду на сегодня
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </button>
+
+        <p class="form-note"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg> Перезвоним в течение 3 минут. Без спама и навязчивых звонков.</p>
+      </form>
+
+      <div class="form-success" role="status" aria-live="polite">
+        <span class="form-success__icon" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span>
+        <h3>Заявка принята</h3>
+        <p>Перезвоним в течение 3 минут, уточним детали и закрепим за вами бригаду.</p>
+        <button class="form-success__reset" type="button" data-form-reset>Отправить ещё одну заявку</button>
+      </div>
+    </div>
+  </dialog>
+
+  <a class="tg-float" href="https://t.me/demontazh24" target="_blank" rel="noopener">
+    <span class="tg-float__icon"><svg class="icon" aria-hidden="true"><use href="#i-telegram"/></svg></span>
+    <span class="tg-float__text">Написать в Telegram</span>
+    <span class="visually-hidden">— откроется в новой вкладке</span>
+  </a>
+</body>
+</html>
